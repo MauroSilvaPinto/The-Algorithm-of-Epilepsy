@@ -42,9 +42,6 @@ p_switches.append(p_switch)
 # Define the number of iterations
 n_iterations = 500
 
-# Define the strategy of the cells -> tenderá a excitar ou não?
-strategy = np.random.randint(2, size=(brain_size, brain_size))
-
 # Initialize a list to store the brain matrix at each iteration
 brain_matrices = []
 
