@@ -1,4 +1,4 @@
-# TheatreEpilepsy
+# Theatre and Epilepsy
 
 Code based on cellular automaton.
 The brain is one matrix (you decide its size and shape). Each cell of the matrix is one neuron and has two possible states (on or off, 1 or 0).
