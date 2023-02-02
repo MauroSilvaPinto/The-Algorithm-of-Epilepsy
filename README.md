@@ -8,7 +8,7 @@ This code contains 5 different executions (main_A, main_B, main_C, main_D, main_
   - main_A : different rates of interictal epileptiform activity
   - main_B : interictal epileptiform activity and a focal seizure with no propagation to other regions
   - main_C : interictal epileptiform activity and a focal seizure with quick propagation to other two regions
-  - main_D : interictal epileptiform activity and a generalised seizure (very big epileptic zone)
+  - main_D : interictal epileptiform activity and a generalised seizure (very big epileptogenic zone)
   - main_E : interictal epileptiform activity and a generalized seizure (three different epileptic zones are triggered simultaneously)
   
 In the respective codes you will find more details, including the onset time of each electrical activity.
