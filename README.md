@@ -18,23 +18,23 @@ In the respective codes you will find more details, including the onset time of 
 CONTEXTO:
 
  A versão 2.0 do código está mais cuidada e tem já uma pequena camada de abstracção. Esta camada diz respeito a actividade elétrica típica na epilepsia.
-    
-    Esta actividade pode ser de dois tipos: 
-        i) crise (seizure): uma descarga de crise epiléptica que gera uma grande actividade eléctrica intensa (típica das crises)
-        ii) descarga interictal epileptiform: descasrgas que geram pequenos "bursts" de actividade eléctrica
+ 
+ Esta actividade pode ser de dois tipos: 
+    i) crise (seizure): uma descarga de crise epiléptica que gera uma grande actividade eléctrica intensa (típica das crises)
+    ii) descarga interictal epileptiform: descasrgas que geram pequenos "bursts" de actividade eléctrica
                 mas que não chegam a despoletar uma crise. 
                 
    
-    Limitações desta abordagem:
-        
-        Na clínica, as descargas interictais epileptiformes dão-nos logo uma pista sobre a localização de onde se poderá gerar a crise.
-        Ou seja: estas descargas interictais epileptiformes dão-se geralmente nos locais do cérebro que derão origem a crises.
+ Limitações desta abordagem:
+       
+   Na clínica, as descargas interictais epileptiformes dão-nos logo uma pista sobre a localização de onde se poderá gerar a crise.
+   Ou seja: estas descargas interictais epileptiformes dão-se geralmente nos locais do cérebro que derão origem a crises.
             
-        Aqui decidi tornar as duas actividades "independentes" para se poder também explorar uma abordagem que "preencha" todo o espaço visual,
-        No entanto, é possível ter-se fidelidade científica nesse aspecto:
-            basta usar o mesmo centro para as descargas epileptiformes e para as descargas de crises epilépticas.
+   Aqui decidi tornar as duas actividades "independentes" para se poder também explorar uma abordagem que "preencha" todo o espaço visual,
+   No entanto, é possível ter-se fidelidade científica nesse aspecto:
+                  basta usar o mesmo centro para as descargas epileptiformes e para as descargas de crises epilépticas.
             
         
-        Ainda: descargas interictais epileptiformes têm uma duração muito curta.
-        Varia de artigo para artigo mas penso terem cerca de 90-300 ms.
-        Aqui têm cerca de 500 ms para mais facilmente serem visualisadas. 
+   Ainda: descargas interictais epileptiformes têm uma duração muito curta.
+          Varia de artigo para artigo mas penso terem cerca de 90-300 ms.
+          Aqui têm cerca de 500 ms para mais facilmente serem visualisadas. 
