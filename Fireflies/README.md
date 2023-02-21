@@ -17,7 +17,7 @@ If you would like to understand what I am talking about, check out these videos:
 
 ## How to execute this code
 
-You execute "main.py" and then "matlab_animation.m". The first code will perform the Game of Life simulation and store the simulation in a .mat file. The second code will transform the .mat file into a video.
+You can execute both codes. Both perform different simulations. 
 
 - [main.py] - a code that performs fireflies synchronized activity, inspired by (https://www.youtube.com/watch?v=ZGvtnE1Wy6U);
 - [random_fireflies.m] - fireflies randomnly firing in a matrix.
