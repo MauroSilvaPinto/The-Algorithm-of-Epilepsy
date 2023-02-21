@@ -1,0 +1,23 @@
+# The algorithm of Epilepsy: merging theatre with Epilepsy
+# Fireflies simulations
+
+Code based on cellular automaton.
+The brain is one matrix (you decide its size and shape). Each cell of the matrix is one neuron with two possible states (on or off, 1 or 0).
+
+I was interested in complex systems: complex structures obtained from many individuals, where each follows simple rules.
+We have many complex systems in nature, including the rules of darwin's evolution, the brain, and even computation.
+
+Videos of Neurons firing in the hippocampus inspired me. These firing patterns reminded me of fireflies' firing and synchronization.
+
+If you would like to understand what I am talking about, check out these videos:
+- https://www.youtube.com/watch?v=j7aOwjGLOq0
+- https://www.youtube.com/shorts/9fTARVi7YhQ
+- https://www.youtube.com/watch?v=ZGvtnE1Wy6U 
+
+
+## How to execute this code
+
+You execute "main.py" and then "matlab_animation.m". The first code will perform the Game of Life simulation and store the simulation in a .mat file. The second code will transform the .mat file into a video.
+
+- [main.py] - a code that performs fireflies synchronized activity, inspired by (https://www.youtube.com/watch?v=ZGvtnE1Wy6U);
+- [random_fireflies.m] - fireflies randomnly firing in a matrix.
