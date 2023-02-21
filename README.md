@@ -1,40 +1,40 @@
-# The algorithm of Epilepsy: merging theatre with epilepsy
+# The algorithm of Epilepsy: merging theatre with Epilepsy
+# Electrical brain activity simulations
 
 Code based on cellular automaton.
-The brain is one matrix (you decide its size and shape). Each cell of the matrix is one neuron and has two possible states (on or off, 1 or 0).
+The brain is one matrix (you decide its size and shape). Each cell of the matrix is one neuron with two possible states (on or off, 1 or 0).
 
 
 This code contains 5 different executions (main_A, main_B, main_C, main_D, main_E):
   - main_A : different rates of interictal epileptiform activity
   - main_B : interictal epileptiform activity and a focal seizure with no propagation to other regions
   - main_C : interictal epileptiform activity and a focal seizure with quick propagation to other two regions
-  - main_D : interictal epileptiform activity and a generalised seizure (very big epileptogenic zone)
+  - main_D : interictal epileptiform activity and a generalized seizure (huge epileptogenic zone)
   - main_E : interictal epileptiform activity and a generalized seizure (three different epileptic zones are triggered simultaneously)
   
-In the respective codes you will find more details, including the onset time of each electrical activity.
+In the respective codes, you will find more details, including the onset time of each electrical activity.
 
 
 
-CONTEXTO:
+CONTEXT:
 
- A versão 2.0 do código está mais cuidada e tem já uma pequena camada de abstracção. Esta camada diz respeito a actividade elétrica típica na epilepsia.
+ The 2.0 version is a more refined version of the 1.0 version and contains an abstraction layer.
+ This layer concerns the electrical activity of the brain.
  
- Esta actividade pode ser de dois tipos: 
-    i) crise (seizure): uma descarga de crise epiléptica que gera uma grande actividade eléctrica intensa (típica das crises)
-    ii) descarga interictal epileptiform: descasrgas que geram pequenos "bursts" de actividade eléctrica
-                mas que não chegam a despoletar uma crise. 
+ This activity can be:
+    i) a seizure: an electrical discharge that generates extensive and intense electrical activity;
+    ii) interictal epileptiform discharge: discharges that generate small "bursts" of electrical activity that cannot trigger seizures.
                 
    
- Limitações desta abordagem:
+ Limitations of this approach:
        
-   Na clínica, as descargas interictais epileptiformes dão-nos logo uma pista sobre a localização de onde se poderá gerar a crise.
-   Ou seja: estas descargas interictais epileptiformes dão-se geralmente nos locais do cérebro que derão origem a crises.
+   Interictal epileptiform discharges provide an important clue regarding the epileptogenic focus.
             
-   Aqui decidi tornar as duas actividades "independentes" para se poder também explorar uma abordagem que "preencha" todo o espaço visual,
-   No entanto, é possível ter-se fidelidade científica nesse aspecto:
-                  basta usar o mesmo centro para as descargas epileptiformes e para as descargas de crises epilépticas.
+   In this code, I have decided to create seizures and interictal epileptiform discharges independently to fill better and explore the visual space.
+   We can make this code more scientifically accurate by:
+                  using the same centre for both epileptiform discharges and seizures.
             
         
-   Ainda: descargas interictais epileptiformes têm uma duração muito curta.
-          Varia de artigo para artigo mas penso terem cerca de 90-300 ms.
-          Aqui têm cerca de 500 ms para mais facilmente serem visualisadas. 
+   Also: interictal epileptiform discharges have a short duration.
+          Their duration varies from paper to paper, but they have a medium duration of 90-300ms.
+          Here they have about 500ms so that they can be more easily visualized. 
