@@ -12,7 +12,7 @@ Then, I developed a code to display the EEG in white lines and a dark background
 
 ## How to execute this code
 
-You "live_animation_video.m". The code will read the EEG, display a video and record it as a MP4 file.
+You execute "live_animation_video.m". The code will read the EEG, display a video and record it as a MP4 file.
 
 ## Autorship
 
