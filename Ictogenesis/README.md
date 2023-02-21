@@ -16,7 +16,7 @@ In the respective codes, you will find more details, including the onset time of
 
 
 
-CONTEXT:
+## CONTEXT:
 
  The 2.0 version is a more refined version of the 1.0 version and contains an abstraction layer.
  This layer concerns the electrical activity of the brain.
@@ -26,7 +26,7 @@ CONTEXT:
     ii) interictal epileptiform discharge: discharges that generate small "bursts" of electrical activity that cannot trigger seizures.
                 
    
- Limitations of this approach:
+ ## Limitations of this approach:
        
    Interictal epileptiform discharges provide an important clue regarding the epileptogenic focus.
             
