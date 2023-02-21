@@ -1,23 +1,26 @@
 # The algorithm of Epilepsy: merging theatre with Epilepsy
-# Fireflies simulations
+# Reading the EEG
 
-Code based on cellular automaton.
-The brain is one matrix (you decide its size and shape). Each cell of the matrix is one neuron with two possible states (on or off, 1 or 0).
+Code to read the EEG as a video over time.
+This way, we can see the beauty and terror of a seizure in a neonatal EEG.
 
-I was interested in complex systems: complex structures obtained from many individuals, where each follows simple rules.
-We have many complex systems in nature, including the rules of darwin's evolution, the brain, and even computation.
 
-Videos of Neurons firing in the hippocampus inspired me. These firing patterns reminded me of fireflies' firing and synchronization.
+I used already developed code from ktapani github (https://github.com/ktapani/Neonatal_Seizure_Detection) to open the EEG and annotations, and data from a publicly available dataset (https://www.nature.com/articles/sdata201939#rightslink).
 
-If you would like to understand what I am talking about, check out these videos:
-- https://www.youtube.com/watch?v=j7aOwjGLOq0
-- https://www.youtube.com/shorts/9fTARVi7YhQ
-- https://www.youtube.com/watch?v=ZGvtnE1Wy6U 
+Then, I developed a code to display the EEG in white lines and a dark background.
 
 
 ## How to execute this code
 
-You execute "main.py" and then "matlab_animation.m". The first code will perform the Game of Life simulation and store the simulation in a .mat file. The second code will transform the .mat file into a video.
+You "live_animation_video.m". The code will read the EEG, display a video and record it as a MP4 file.
 
-- [main.py] - a code that performs fireflies synchronized activity, inspired by (https://www.youtube.com/watch?v=ZGvtnE1Wy6U);
-- [random_fireflies.m] - fireflies randomnly firing in a matrix.
+## Autorship
+
+With the exception of "live_animation_video.m", all data and files are not mine.
+
+All data and original code can be found in these two links:
+- https://github.com/ktapani/Neonatal_Seizure_Detection
+- https://zenodo.org/record/2547147#.Y-qB5HbP2Uk
+
+The authors of the codes are Karoliina Tapani (Aalto University, Finland) and Nathan Stevenson (University of Helsinki, Finland and
+QIMR Berghofer Medical Research Institute, Australia).
