@@ -1,5 +1,5 @@
 # The algorithm of Epilepsy: merging theatre with Epilepsy
-# Electrical brain activity simulations
+# Ictogenesis - Electrical brain activity simulations
 
 Code based on cellular automaton.
 The brain is one matrix (you decide its size and shape). Each cell of the matrix is one neuron with two possible states (on or off, 1 or 0).
