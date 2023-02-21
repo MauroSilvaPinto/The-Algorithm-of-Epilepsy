@@ -1,40 +1,23 @@
 # The algorithm of Epilepsy: merging theatre with Epilepsy
-# Electrical brain activity simulations
+# Fireflies simulations
 
 Code based on cellular automaton.
 The brain is one matrix (you decide its size and shape). Each cell of the matrix is one neuron with two possible states (on or off, 1 or 0).
 
+I was interested in complex systems: complex structures obtained from many individuals, where each follows simple rules.
+We have many complex systems in nature, including the rules of darwin's evolution, the brain, and even computation.
 
-This code contains 5 different executions (main_A, main_B, main_C, main_D, main_E):
-  - main_A : different rates of interictal epileptiform activity
-  - main_B : interictal epileptiform activity and a focal seizure with no propagation to other regions
-  - main_C : interictal epileptiform activity and a focal seizure with quick propagation to other two regions
-  - main_D : interictal epileptiform activity and a generalized seizure (huge epileptogenic zone)
-  - main_E : interictal epileptiform activity and a generalized seizure (three different epileptic zones are triggered simultaneously)
-  
-In the respective codes, you will find more details, including the onset time of each electrical activity.
+Videos of Neurons firing in the hippocampus inspired me. These firing patterns reminded me of fireflies' firing and synchronization.
+
+If you would like to understand what I am talking about, check out these videos:
+- https://www.youtube.com/watch?v=j7aOwjGLOq0
+- https://www.youtube.com/shorts/9fTARVi7YhQ
+- https://www.youtube.com/watch?v=ZGvtnE1Wy6U 
 
 
+## How to execute this code
 
-CONTEXT:
+You execute "main.py" and then "matlab_animation.m". The first code will perform the Game of Life simulation and store the simulation in a .mat file. The second code will transform the .mat file into a video.
 
- The 2.0 version is a more refined version of the 1.0 version and contains an abstraction layer.
- This layer concerns the electrical activity of the brain.
- 
- This activity can be:
-    i) a seizure: an electrical discharge that generates extensive and intense electrical activity;
-    ii) interictal epileptiform discharge: discharges that generate small "bursts" of electrical activity that cannot trigger seizures.
-                
-   
- Limitations of this approach:
-       
-   Interictal epileptiform discharges provide an important clue regarding the epileptogenic focus.
-            
-   In this code, I have decided to create seizures and interictal epileptiform discharges independently to fill better and explore the visual space.
-   We can make this code more scientifically accurate by:
-                  using the same centre for both epileptiform discharges and seizures.
-            
-        
-   Also: interictal epileptiform discharges have a short duration.
-          Their duration varies from paper to paper, but they have a medium duration of 90-300ms.
-          Here they have about 500ms so that they can be more easily visualized. 
+- [main.py] - a code that performs fireflies synchronized activity, inspired by (https://www.youtube.com/watch?v=ZGvtnE1Wy6U);
+- [random_fireflies.m] - fireflies randomnly firing in a matrix.
