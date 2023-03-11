@@ -12,11 +12,11 @@ Then, I developed a code to display the EEG in white lines and a dark background
 
 ## How to execute this code
 
-You execute "live_animation_video.m". The code will read the EEG, display a video and record it as an MP4 file.
+You execute [`live_animation_video.m`](/Reading_EEG/live_animation_video.m). The code will read the EEG, display a video and record it as an MP4 file.
 
 ## Autorship
 
-All data and files are not mine except "live_animation_video.m".
+All data and files are not mine except [`live_animation_video.m`](/Reading_EEG/live_animation_video.m).
 
 All data and original code can be found in these two links:
 - https://github.com/ktapani/Neonatal_Seizure_Detection
