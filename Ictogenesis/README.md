@@ -6,11 +6,11 @@ The brain is represented here by a matrix (you decide its size and shape). Each 
 
 
 This code contains 5 different executions (main_A, main_B, main_C, main_D, main_E):
-  - [main_A](/Ictogenesis/Version_2/main_A.py) : different rates of interictal epileptiform activity
-  - [main_B](/Ictogenesis/Version_2/main_B.py) : interictal epileptiform activity and a focal seizure, with no propagation to other regions
-  - [main_C](/Ictogenesis/Version_2/main_C.py) : interictal epileptiform activity and a focal seizure, with quick propagation to two other regions
-  - [main_D](/Ictogenesis/Version_2/main_D.py) : interictal epileptiform activity and a generalized seizure (huge epileptogenic zone)
-  - [main_E](/Ictogenesis/Version_2/main_E.py) : interictal epileptiform activity and a generalized seizure (three different epileptic zones are triggered simultaneously)
+  - [main_A](/Ictogenesis/Version_2/main_A.py) : different rates of interictal epileptiform activity. [Video.](https://drive.google.com/file/d/1GrujfcpgaKinw4ZVt5u3908idWjr7Row/view?usp=sharing)
+  - [main_B](/Ictogenesis/Version_2/main_B.py) : interictal epileptiform activity and a focal seizure, with no propagation to other regions. [Video.](https://drive.google.com/file/d/1GzZ15YSVt_b8UlgLw3vmHx5kbwwT526P/view?usp=sharing)
+  - [main_C](/Ictogenesis/Version_2/main_C.py) : interictal epileptiform activity and a focal seizure, with quick propagation to two other regions. [Video.](https://drive.google.com/file/d/1H0fqQqBNrI5RZqXprM7AlDtY6s3OWGlW/view?usp=sharing)
+  - [main_D](/Ictogenesis/Version_2/main_D.py) : interictal epileptiform activity and a generalized seizure (huge epileptogenic zone). [Video.](https://drive.google.com/file/d/1H0kPTmlvodrSZkaOhhRXQHK5Ua72YT6h/view?usp=sharing)
+  - [main_E](/Ictogenesis/Version_2/main_E.py) : interictal epileptiform activity and a generalized seizure (three different epileptic zones are triggered simultaneously). [Video.](https://drive.google.com/file/d/1H5E5bSicxxNLY8P5OnBF_7LQBvHh_Agf/view?usp=sharing)
   
 In the respective code files, you will find more details, including the onset time of each electrical activity.
 
