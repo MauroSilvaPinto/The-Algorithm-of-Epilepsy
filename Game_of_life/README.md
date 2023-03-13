@@ -24,4 +24,4 @@ You execute `main.py` and then `matlab_animation.m`. The first code will perform
 - [structure.py](/Game_of_life/structure.py) - this code contains all the utilities to perform the Game of Life. This includes the rules of life, how to create structures, how to rotate, how to interact with the matrix borders, etc. Many structures are available, including spaceships, oscillators, still forms, and some methuselahs.
 - [matlab_animation.m](/Game_of_life/matlab_animation.m) - a code to transform the `.mat` file from `main.py` into an MP4 video.
 
-Example of a video [here](https://drive.google.com/file/d/13SP_QIHdKz4TW7Bs6RW9n3xF44f9SByy/view?usp=sharing).
+Example of the video output [here](https://drive.google.com/file/d/13SP_QIHdKz4TW7Bs6RW9n3xF44f9SByy/view?usp=sharing).
