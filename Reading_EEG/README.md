@@ -8,6 +8,7 @@ This way, we can see the beauty and terror of a seizure in a neonatal EEG.
 I used the developed code from ktapani github (https://github.com/ktapani/Neonatal_Seizure_Detection) to open the EEG and annotations data from a publicly available dataset (https://www.nature.com/articles/sdata201939#rightslink).
 
 Then, I developed a code to display the EEG in white lines and a dark background.
+
 [Video example here.](https://drive.google.com/file/d/13IF-G1NOm75V0S4KOpcCh7lXi5UKm-vt/view?usp=sharing)
 
 
