@@ -4,7 +4,9 @@ The algorithm of Epilepsy is an original theatre play about EEG Epilepsy Seizure
 This play is a collaboration between the Department of Informatics Engineering of the University of Coimbra
 and Marionet theatre company (https://marioneteatro.com/en).
 
-The play will be presented to the public on a season of 5 shows in Teatro da Cerca de São Bernardo, Coimbra, Portugal, from 28 June until 2 July.
+Full details on: https://marioneteatro.com/en/productions/o-algoritmo-da-epilepsia
+
+The play was presented to the public on a season of 5 shows in Teatro da Cerca de São Bernardo, Coimbra, Portugal, from 28 June until 2 July.
 
 This GitHub presents some creative processes concerning computer simulation, EEG, and complex systems.
 Each folder has its readme file to provide more context.
